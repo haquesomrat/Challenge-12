@@ -1,0 +1,56 @@
+@media screen and (min-width: 576px) {
+  .container {
+    width: 1110px;
+    max-width: 90%;
+    padding: 7rem 0;
+  }
+  .main-section {
+    gap: 4.875rem;
+  }
+  /* content  */
+  .content {
+    flex-direction: row;
+    align-items: center;
+  }
+  /* text content  */
+  .text-content {
+    text-align: start;
+    padding-right: 15%;
+  }
+  .content-title {
+    font-size: 3.125em;
+  }
+  .content-text {
+    font-size: 1em;
+  }
+  /* review content  */
+  .review {
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-left: 2.5rem;
+  }
+  .review:nth-child(1) {
+    margin-right: 4rem;
+  }
+  .review:nth-child(2) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .review:nth-child(3) {
+    margin-left: 4rem;
+  }
+  /* card content  */
+  .card-content {
+    flex-direction: row;
+  }
+  .card:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+  .card:nth-child(2) {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .card:nth-child(3) {
+    margin-top: 2rem;
+  }
+}
